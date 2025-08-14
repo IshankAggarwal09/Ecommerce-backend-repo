@@ -18,8 +18,9 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors({
   origin: [
-    "http://localhost:3000", // for local dev
-    "https://thestudentadda.com/" // your live frontend
+    "http://localhost:3000", // local dev
+    "https://thestudentadda.com", // live frontend
+    "https://thestudentadda.in"   // admin panel
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
