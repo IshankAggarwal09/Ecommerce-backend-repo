@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cors({
   origin: [
     "http://localhost:3000", // for local dev
-    "https://o9n.36b.mytemp.website" // your live frontend
+    "https://thestudentadda.com/" // your live frontend
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
